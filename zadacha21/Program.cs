@@ -1,0 +1,13 @@
+﻿System.Console.Write("Введите координаты х точки А: ");
+int x1=Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите координаты Y точки А: ");
+int y1=Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите координаты Z точки А: ");
+int z1=Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите координаты X точки B: ");
+int x2=Convert.ToInt32(Console.ReadLine());System.Console.Write("Введите координаты Y точки B: ");
+int y2=Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите координаты Z точки А: ");
+int z2=Convert.ToInt32(Console.ReadLine());
+double result=Math.Round(Math.Sqrt(Math.Pow((x1-x2),2)+Math.Pow((y1-y2),2)+Math.Pow((z1-z2),2)),2);
+System.Console.Write($"Расстояние между двумя точками-> {result}");
